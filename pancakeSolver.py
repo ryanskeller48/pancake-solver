@@ -96,7 +96,7 @@ class pancakeSolver:
         if (n < 2): return "Number too small!"
         li = []
         numbers = range(1, n+1)
-        print "Welcome to the pancake flipper. Select the order of pancakes, starting from the bottom (5 is biggest)."
+        print "Welcome to the pancake flipper. Select the order of pancakes, starting from the bottom (" + str(n) + " is biggest)."
         
         while (1):
             num1 = input("Bottom Pancake. Enter a number 1-" + str(n))
