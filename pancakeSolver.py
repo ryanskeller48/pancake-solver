@@ -29,8 +29,8 @@ class pancakeStack:
                          ## stack = [1, 2, 3, 4]
                          ## stack.flip(1) = [4, 3, 2, 1]
                          ## indexing begins at 1. max cardinality of flip pos == len(stack)-1
-                         ## i.e. stack.flip(3) = [4, 3, 1, 2]
-                         ## and stack.flip(4) = [4, 3, 2, 1] = stack.flip(5) etc.
+                         ## i.e. stack.flip(3) = [1, 2, 4, 3]
+                         ## and stack.flip(4) = [1, 2, 3, 4] = stack.flip(5) etc.
         if (pos == 1):
             return reverse(self.stack) # returns new list because this is used to create new stacks
         else:
