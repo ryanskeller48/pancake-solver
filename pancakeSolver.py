@@ -1,3 +1,8 @@
+## Author: Ryan Keller
+##
+## Python 2.7
+##
+
 import heapq
 import random
 
